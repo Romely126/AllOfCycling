@@ -1,0 +1,11 @@
+/* viewport 이미지 최적화 태그, 모든 이미지 적용중 */
+img {
+  width: 80%;
+  height: auto;
+}
+
+/* id="test" 셀렉터로 제어중인 최적화태그, img보다 우선순위 높음 */
+#test {
+  width: 50%;
+  height: auto;
+}
