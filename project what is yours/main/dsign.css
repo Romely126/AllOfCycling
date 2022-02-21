@@ -1,0 +1,28 @@
+/* viewport 이미지 최적화 태그, 모든 이미지 적용중 */
+img {
+  width:80%;
+  height:auto;
+}
+
+body {
+  margin : 0;
+	padding : 0;
+  background-image: url(img/backimage.png);
+  width:auto;
+  height:100%;
+  /*
+  background-color:  베리페리 색상*/
+}
+
+
+.titled{
+  color:#6667AB;
+  text-align:center;
+  background-color: ivory;
+  /*이거 안들어가는데 위치 배율 정할 코드 찾기top:20%; */
+
+  border-top:3px solid; border-color:#6667AB; padding:10px;
+  border-bottom:3px solid; border-color:#6667AB; padding:10px;
+  border-left:3px solid; border-color:#6667AB; padding:10px;
+  border-right:3px solid; border-color:#6667AB; padding:10px;
+}
